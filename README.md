@@ -40,3 +40,36 @@ The scoring model provides a data-driven starting point for agencies, policymake
    - Top 10 potential National Parks (final scorecard)
 
 ## Repository Structure
+```
+.
+├── TheNextNationalPark.ipynb     # Final analysis notebook
+├── data/                         # Source datasets (not included in repo due to size)
+├── outputs/                      # Processed scorecards, charts
+├── README.md                     # Project description and usage
+└── LICENSE                       # License file (if applicable)
+```
+
+## How to Run
+1. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **Run the notebook**:
+   Open `TheNextNationalPark.ipynb` in JupyterLab or Jupyter Notebook and run all cells.
+
+## Dependencies
+- Python 3.11
+- pandas
+- geopandas
+- matplotlib
+- numpy
+
+## Results
+The model produced a ranked list of candidate National Parks. The top results highlight parcels with high biodiversity, strong protection scores, and visitation potential.
+
+## Ethical Considerations
+- Tribal lands were excluded from the analysis to avoid recommendations without consultation.
+- Conservation decisions have economic and cultural impacts; the scorecard should guide discussions, not replace them.
+
+## License
+Specify your project license here (e.g., MIT, CC-BY-4.0).
