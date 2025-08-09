@@ -72,4 +72,4 @@ The model produced a ranked list of candidate National Parks. The top results hi
 - Conservation decisions have economic and cultural impacts; the scorecard should guide discussions, not replace them.
 
 ## License
-Specify your project license here (e.g., MIT, CC-BY-4.0).
+Research and Educational purposes only.
